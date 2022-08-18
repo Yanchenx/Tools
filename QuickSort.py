@@ -47,6 +47,7 @@ def sort(x, first, last, compare):
         b = sort(x, first + smaller + 1 - a, first + smaller + larger - a, compare) # 这里会直接受到a的影响
     return a + b + delete # 返回所有在这期间删去的值
 
+
 # 以下部分为示例/测试用代码
 
 def com(a, b):
